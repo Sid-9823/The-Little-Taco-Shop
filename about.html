@@ -8,6 +8,7 @@
         <title>About The Little Taco Shop</title>
         <link rel="icon" href="/HTML/favicon.ico" type="images/x-icon">
         <link rel="stylesheet" href="/HTML/css/finalproject.css">
+        <script src="/js/main.js" defer></script>
     </head>
 <body>
     <header class="header">
@@ -61,7 +62,7 @@
                 <h3>Taco Trivia</h3>
                 <details>
                     <summary>When did Tacos first appeared in the United States?</summary><br>
-                    <p>
+                    <p class="about__trivia-answer">
                         Jeffrey M. Pilcher, taco historian and professor of history at the University of Minnesota, says
                         the earliest mention of tacos in the United States are in a newspaper from <time
                             datetime="1905">1905</time>. (Source: <cite><a href="https://www.smithsonianmag.com/arts-culture/where-did-the-taco-come-from-81228162/"target="_blank">Smithsonian Magazine</a></cite>)
@@ -70,10 +71,10 @@
             </aside>
         </article>
     </main>
-
+    
     <footer class="footer">
         <p>
-            <span class="nowrap"> Copyright &copy;</span>
+            <span class="nowrap"> Copyright &copy; <time id="year"></time> </span>
             <span class="nowrap">Little Taco Shop</span>
         </p>
     </footer>
